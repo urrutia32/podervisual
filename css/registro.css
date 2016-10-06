@@ -1,0 +1,20 @@
+.imagen-registro{
+	background-image: url(../img/catalogo.jpg);
+	height:770px ;
+}
+.container-fluid{
+	padding: 0;
+}
+nav{
+	position: relative;
+}
+.fondo-trans{
+	background-color: rgba(255,255,255,.9);
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-top: 70px;
+	border-radius: 3px;
+}
+.boton{
+	margin-top: 50px;
+}

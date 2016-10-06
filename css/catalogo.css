@@ -1,0 +1,94 @@
+#catalogo{
+	margin-top: 150px;
+	background-color: white;
+}
+#catalogo .row{
+	width:inherit;
+}
+#oftalmico, #solar, .banner, .modalContenedor{
+	display: none;
+}
+.tienda .imagen{
+	height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.articulo{
+	margin-top: 50px;s
+}
+.articulo .descripcion{
+    height: 40px;
+    padding-top: 5px;
+}
+.marca{
+	background-position:right;
+	background-size:contain;
+	height: 30px;
+	background-repeat: no-repeat;
+}
+.rayban{
+	background-image: url(../img/rayban/marca.png);
+}
+#oftalmico .articulo .imagen .marca{
+	background-position: center;
+	background-size: cover;
+}
+#modSolar .mod .imagen{
+	background-image: url("../img/sol.jpg");
+}
+#modSolar .img1{
+	background-image: url("../img/sol.jpg");
+}
+#modSolar .img2{
+	background-image: url("../img/sol.jpg");
+}
+#modSolar .img3{
+	background-image: url("../img/sol.jpg");
+}
+.tienda{
+	background-color: white;
+}
+.precio{
+	padding-top: 120px;
+}
+.tienda .boton{
+	cursor:pointer;
+	display: inline-block;
+	float: left;
+	width: calc(91% / 2);
+	margin-left: 3%;
+	height:30px;
+	line-height: 30px; 
+	text-align: center;
+}
+.tienda .ver{
+	background-color: white;
+	color:rgb(206,57,114);
+	border:1px solid rgb(206,57,114);
+}
+.tienda .ver:hover{
+	font-size:1.3em;
+}
+.tienda .row{
+	padding-bottom: 30px;
+}
+
+.mod .imagen{
+	background-size: cover;
+	height: 300px;
+
+}
+.mod{
+	padding: 0;
+}
+.mod .añadir{
+	width: 100px;
+}
+.mod .descripcion{
+	font-family: "lato";
+	font-size: 1.5em;
+}
+.mod .col-md-8{
+	padding: 0;
+} 
